@@ -115,13 +115,27 @@ body{
 .testimonials{
   margin: 40px 0;
 }
-.testimonial{
-  background: white;
-  padding: 20px;
+.text-center{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.testimonials-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* background: white;
   margin: 10px auto;
   border-radius: 8px;
   max-width: 300px;
-  border box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
+
+.testimonial{
+  padding: 20px;
+  box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+  border-radius: 5px;
 }
 /* ................................................................. */
 
@@ -142,11 +156,12 @@ body{
 /* Contact Form */
 .contact{
   margin: 40px 0;
+  display: flex;
 }
 .contact form{
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 500px;
   margin: auto;
 }
 .contact input, .contact textarea{
@@ -159,6 +174,13 @@ body{
 .contact textarea{
   resize: vertical;
   min-height: 100px;
+}
+
+.touch{
+  text-align: center;
+  margin-left: 80px;
+  width: 528px;
+  height: 232px;
 }
 /* .......................................................... */
 
