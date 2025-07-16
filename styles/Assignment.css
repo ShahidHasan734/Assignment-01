@@ -59,14 +59,19 @@ body{
 
 /* See it in ACtion */
 .action{
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  display: flex;
+  justify-content: space-around;
   margin: 40px 0;
 }
 
 .action-text{
   margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.action-text p{
+  color: #252432;
 }
 
 .btn-secondary{
@@ -93,6 +98,7 @@ body{
   padding: 30px 10px;
   border-radius: 10px;
   margin: 40px 0;
+  font-weight: 800px;
 }
 
 .stat-box h3{
