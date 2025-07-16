@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;  
+}
+
+body{
+  background: #f6f7fc;
+  color: #111;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+/* ..................................................... */
+
+/* Header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo{
+  font-size: 24px;
+  color: #4f46e5;
+  font-weight: bold;
+}
+
+.signup-btn{
+  padding: 10px 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* ....................................................... */
+
+/* Hero Section */
+.hero{
+  margin: 40px 0;
+}
+.hero h1{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.btn-primary{
+  padding: 12px 24px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* ......................................................... */
+
+/* See it in ACtion */
+.action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.action-text{
+  margin-bottom: 20px;
+}
+
+.btn-secondary{
+  padding: 10px 20px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.action img{
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+/* ............................................................... */
+
+/* Stats Section */
+.stats{
+  display: flex;
+  justify-content: space-around;
+  background: #e0e7ff;
+  padding: 30px 10px;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.stat-box h3{
+  font-size: 24px;
+  color: #1d4ed8;
+}
+
+.stat-box p{
+  font-size: 14px;
+}
+/* ................................................................. */
+
+/* Testimonials Section */
+.testimonials{
+  margin: 40px 0;
+}
+.testimonial{
+  background: white;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 300px;
+  border box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+/* ................................................................. */
+
+/* Focus Section */
+.focus{
+  margin: 40px 0;
+}
+.focus p{
+  margin: 10px 0;
+}
+.focus img{
+  margin-top: 20px;
+  width: 400px;
+  border-radius: 10px;
+}
+/* ................................................................ */
+
+/* Contact Form */
+.contact{
+  margin: 40px 0;
+}
+.contact form{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+.contact input, .contact textarea{
+  padding:10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact textarea{
+  resize: vertical;
+  min-height: 100px;
+}
+/* .......................................................... */
+
+/* Footer Section */
+.footer{
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer nav a{
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4f46e5;
+}
+.footer p{
+  margin: 10px 0;
+  font-size: 14px;
+}
