@@ -15,11 +15,16 @@ body{
 /* ..................................................... */
 
 /* Header */
-.header{
+.nav-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
+
+.header-bg{
+  background-image: url(../Assets/Hero-bg.png);
+  margin: auto;
 }
 
 .logo{
