@@ -161,13 +161,23 @@ body{
 
 /* Contact Form */
 .contact{
-  margin: 40px 0;
+  margin: 5px 5px;
   display: flex;
+  justify-content: space-between;
+  background-color: #E5E8F0;
+  width: 100%;
 }
+
+.contact-column{
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 20px;
+}
+
 .contact form{
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 800px;
   margin: auto;
 }
 .contact input, .contact textarea{
@@ -183,24 +193,33 @@ body{
 }
 
 .touch{
-  text-align: center;
-  margin-left: 80px;
+  text-align: left center;
+  margin-top: 60px;
+  margin-left:auto;
   width: 528px;
-  height: 232px;
+  height: 22px;
+  font-weight: bolder;
+  font-size: 80px;
+  padding: left 50%;
 }
 /* .......................................................... */
 
 /* Footer Section */
 .footer{
   margin-top: 40px;
+  margin-bottom: 100px;
   padding: 20px 0;
-  border-top: 1px solid #ddd;
+  border-top: 0px solid #ddd;
+}
+
+.footer div{
+  font-size: 80px;
 }
 
 .footer nav a{
   margin: 0 10px;
   text-decoration: none;
-  color: #4f46e5;
+  color: black;
 }
 .footer p{
   margin: 10px 0;

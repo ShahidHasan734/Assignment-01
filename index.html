@@ -97,19 +97,32 @@
 
   <!-- Contact Form -->
   <section class="contact">
-    <h2 class="touch">Let's Get in Touch</h2>
-    <form>
+    <!-- <div class="contact-bg"> -->
+      <div class="contact-column">
+            <h2 class="touch">Let's Get in Touch</h2>        
+      </div>   
+
+       <div class="contact-column"> 
+    <form class="label">
+
+      <label for="email">Email</label>
       <input type="email" placeholder="Enter Your Email">
+
+      <label for="text">Name</label>
       <input type="text" placeholder="Enter Your Full Name">
-      <textarea placeholder="Write Your Message..."></textarea>
+
+      <label for="message">Message</label>
+      <textarea name="" id="" cols="3" rows="3" placeholder="Write Your Message..."></textarea>
       <button type="submit" class="btn-primary">Get in Touch</button>
+      
     </form>
+      </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="logo">LOGO</div>
-    <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring
+    <p>Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring
       your vision to life.</p>
     <nav>
       <a href="#">Home</a>
@@ -119,5 +132,4 @@
     </nav>
   </footer>
 </body>
-
 </html>
