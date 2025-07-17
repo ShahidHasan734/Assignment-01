@@ -100,19 +100,20 @@ body{
   display: flex;
   justify-content: space-around;
   background: #e0e7ff;
-  padding: 30px 10px;
+  padding: 0px 0px 10px 10px;
   border-radius: 10px;
-  margin: 40px 0;
+  margin: 10px 20px;
   font-weight: 800px;
 }
 
 .stat-box h3{
-  font-size: 24px;
+  font-size: 40px;
   color: #1d4ed8;
+  justify-content: space-around;
 }
 
 .stat-box p{
-  font-size: 14px;
+  font-size: 10px;
 }
 /* ................................................................. */
 
