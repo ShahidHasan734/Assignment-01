@@ -25,6 +25,7 @@ body{
 .header-bg{
   background-image: url(../Assets/Hero-bg.png);
   margin: auto;
+  padding-bottom: 30px;
 }
 
 .logo{
@@ -41,6 +42,12 @@ body{
   border-radius: 6px;
   cursor: pointer;
 }
+.signup-btn:hover{
+  background-color: tomato;
+  transition: 1s;
+  transform:scale(1.1);
+}
+
 /* ....................................................... */
 
 /* Hero Section */
@@ -59,6 +66,11 @@ body{
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: tomato;
+  transition: 1s;
+  transform:scale(1.1);
 }
 /* ......................................................... */
 
@@ -88,6 +100,12 @@ body{
   cursor: pointer;
 }
 
+.btn-secondary:hover{
+  background-color: tomato;
+  transition: 1s;
+  transform:scale(1.1);
+}
+
 .action img{
   width: 300px;
   border-radius: 10px;
@@ -101,6 +119,7 @@ body{
   justify-content: space-around;
   background: #e0e7ff;
   padding: 0px 0px 10px 10px;
+  padding-top: 20px;
   border-radius: 10px;
   margin: 10px 20px;
   font-weight: 800px;
@@ -128,6 +147,12 @@ body{
   margin-bottom: 40px;
 }
 
+.testimonial:hover{
+  background-color: tomato;
+  transition: 1s;
+  transform:scale(1.1);
+}
+
 .testimonials-container{
   display: flex;
   justify-content: center;
@@ -143,6 +168,12 @@ body{
   border-radius: 10px;
   text-align: left;
   cursor: pointer;
+}
+
+.testimonial :hover{
+  background-color: aqua;
+  transition: 1s;
+  transform:scale(1.1);
 }
 
 .testimonial h3{
@@ -189,9 +220,10 @@ body{
 .focus{
   margin: 40px 0;
   background-color: #FFFFFF;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   border-radius: 10px;
 }
 .focus p{
@@ -268,6 +300,10 @@ body{
   margin: 0 10px;
   text-decoration: none;
   color: black;
+}
+
+footer nav a:hover{
+  background-color: gold;
 }
 .footer p{
   margin: 10px 0;
